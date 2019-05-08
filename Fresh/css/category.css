@@ -1,0 +1,316 @@
+header {
+  padding: 10px 0;
+  background-color: #80b435;
+}
+
+header .logo {
+  width: 60%;
+  height: auto;
+}
+
+header .logo img {
+  width: 100%;
+  height: auto;
+}
+
+header nav {
+  width: 100%;
+  background-color: unset !important;
+  border: unset !important;
+  margin-bottom: unset !important;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+header nav ul li {
+  margin-left: 2px;
+}
+
+header nav ul li a {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+header nav ul li a:hover {
+  color: antiquewhite;
+  border-bottom: 2px solid white;
+}
+
+header nav .navbar-nav > .active > a, header nav .navbar-default .navbar-nav > .active > a:focus, header nav .navbar-default .navbar-nav > .active > a:hover {
+  background-color: unset !important;
+}
+
+header nav input {
+  max-width: 400px;
+  float: right;
+  -webkit-animation-name: inputsearch;
+          animation-name: inputsearch;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes inputsearch {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes inputsearch {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+main .top-main .bg img {
+  width: 100%;
+  height: auto;
+}
+
+main .top-main .dieuhuong {
+  position: absolute;
+  left: 50%;
+  margin-top: -5em;
+}
+
+main .top-main .dieuhuong span {
+  color: white;
+}
+
+main .top-main .dieuhuong a {
+  color: white;
+  font-size: 16px;
+}
+
+main .product h3 {
+  margin-left: 1em;
+}
+
+main .product .top-pro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .product .top-pro .loghe {
+  margin-right: 1em;
+  margin-top: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main .product .top-pro .loghe select {
+  height: 40px;
+}
+
+main .product .top-pro .loghe button {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+main .main-product {
+  margin-top: 1em;
+}
+
+main .main-product .item-product {
+  margin-top: 0.5em;
+  padding: 2px;
+  border: 1px solid #C2C2C2;
+}
+
+main .main-product .item-product .info {
+  padding: 10px 0;
+  text-align: center;
+  border-top: 0.5px solid #C2C2C2;
+}
+
+main .main-product .item-product .info h5 {
+  text-transform: uppercase;
+}
+
+main .main-product .item-product .info a {
+  color: brown;
+}
+
+main .main-product .item-product .info a:hover {
+  text-decoration: none;
+}
+
+main .main-product .item-product:hover {
+  -webkit-box-shadow: 0.5px 0.3px 0.3px 0.3px #A0A0A0;
+          box-shadow: 0.5px 0.3px 0.3px 0.3px #A0A0A0;
+}
+
+main .main-product ul.pagination {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 2em;
+  position: relative;
+}
+
+footer {
+  margin-top: 2em;
+  background-color: #80b435;
+  padding: 2em 0 2em 0;
+}
+
+footer ul {
+  margin-top: 1em;
+}
+
+footer ul li {
+  margin-top: 12px;
+  list-style: none;
+}
+
+footer ul li span {
+  color: white;
+}
+
+footer ul li h3 {
+  color: white;
+}
+
+@media only screen and (max-width: 320px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar {
+    margin-top: -3em;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .top-main .dieuhuong {
+    left: 2em;
+    margin-top: 3em;
+  }
+  main .top-main .dieuhuong a {
+    color: black;
+    font-size: 13px;
+  }
+  main .top-main .dieuhuong span {
+    font-size: 10px;
+    color: black;
+  }
+  main .product {
+    margin-top: 7em;
+  }
+  main .product .top-pro h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar {
+    margin-top: -3em;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar {
+    margin-top: -3em;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .top-main .dieuhuong {
+    left: 2em;
+    margin-top: 3em;
+  }
+  main .top-main .dieuhuong a {
+    color: black;
+    font-size: 13px;
+  }
+  main .top-main .dieuhuong span {
+    font-size: 10px;
+    color: black;
+  }
+  main .product {
+    margin-top: 7em;
+  }
+  main .product .top-pro h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header .logo {
+    width: 50%;
+    height: auto;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=category.css.map */

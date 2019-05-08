@@ -1,0 +1,357 @@
+header {
+  padding: 10px 0;
+  background-color: #80b435;
+}
+
+header .logo {
+  width: 60%;
+  height: auto;
+}
+
+header .logo img {
+  width: 100%;
+  height: auto;
+}
+
+header nav {
+  width: 100%;
+  background-color: unset !important;
+  border: unset !important;
+  margin-bottom: unset !important;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+header nav ul li {
+  margin-left: 2px;
+}
+
+header nav ul li a {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+header nav ul li a:hover {
+  color: antiquewhite;
+  border-bottom: 2px solid white;
+}
+
+header nav .navbar-nav > .active > a, header nav .navbar-default .navbar-nav > .active > a:focus, header nav .navbar-default .navbar-nav > .active > a:hover {
+  background-color: unset !important;
+}
+
+header nav input {
+  max-width: 400px;
+  float: right;
+  -webkit-animation-name: inputsearch;
+          animation-name: inputsearch;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes inputsearch {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes inputsearch {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+main .top-main .bg img {
+  width: 100%;
+  height: auto;
+}
+
+main .top-main .dieuhuong {
+  position: absolute;
+  left: 50%;
+  margin-top: -5em;
+}
+
+main .top-main .dieuhuong span {
+  color: white;
+}
+
+main .top-main .dieuhuong a {
+  color: white;
+  font-size: 16px;
+}
+
+main .table {
+  border: 1px solid #b7b7b7;
+  margin-top: 3em;
+}
+
+main .table th {
+  text-align: center;
+}
+
+main .table tr {
+  border-bottom: 1px solid #b7b7b7;
+}
+
+main .table td {
+  text-align: center;
+  background-color: white;
+  max-width: 150px;
+  max-height: 100px;
+}
+
+main .table td a {
+  color: black;
+}
+
+main .table td button {
+  background-color: #55a007;
+  color: white;
+  padding: 10px;
+}
+
+main .table td button:hover {
+  background-color: #437c07;
+  color: white;
+}
+
+main .table td.button1 {
+  float: right;
+}
+
+main .table td.button3 {
+  float: left;
+}
+
+main .table td.item-img {
+  max-width: 150px;
+}
+
+main .table .item-img {
+  margin: 0 auto;
+  padding: 5px;
+  width: 70%;
+  border: 1px solid #b7b7b7;
+}
+
+main .table .item-img img {
+  width: 100%;
+  height: auto;
+}
+
+main form {
+  margin-top: 3em;
+}
+
+main form h3 {
+  font-size: 19px;
+  margin-bottom: 2em;
+}
+
+main form .form-group label {
+  font-size: 15px;
+  font-weight: 450;
+}
+
+main form .form-group input {
+  max-width: 300px;
+  height: 40px;
+}
+
+main form button {
+  background-color: #55a007 !important;
+  color: white !important;
+  border: 0px !important;
+  padding: 10px 20px !important;
+}
+
+main form button:hover, main form button:focus {
+  background-color: #437c07 !important;
+  color: white;
+}
+
+footer {
+  margin-top: 2em;
+  background-color: #80b435;
+  padding: 2em 0 2em 0;
+}
+
+footer ul {
+  margin-top: 1em;
+}
+
+footer ul li {
+  margin-top: 12px;
+  list-style: none;
+}
+
+footer ul li span {
+  color: white;
+}
+
+footer ul li h3 {
+  color: white;
+}
+
+@media only screen and (max-width: 320px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar {
+    margin-top: -3em;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .top-main .dieuhuong {
+    left: 2em;
+    margin-top: 3em;
+  }
+  main .top-main .dieuhuong a {
+    color: black;
+    font-size: 13px;
+  }
+  main .top-main .dieuhuong span {
+    font-size: 10px;
+    color: black;
+  }
+  main .comment-fb .comment-top span.label {
+    font-size: 10px;
+  }
+  main .comment-fb .center-comment h4 {
+    font-size: 11px;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar {
+    margin-top: -3em;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .top-main .dieuhuong {
+    left: 2em;
+    margin-top: 3em;
+  }
+  main .top-main .dieuhuong a {
+    color: black;
+    font-size: 13px;
+  }
+  main .top-main .dieuhuong span {
+    font-size: 10px;
+    color: black;
+  }
+  main .comment-fb .comment-top span.label {
+    font-size: 10px;
+  }
+  main .comment-fb .center-comment h4 {
+    font-size: 11px;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar {
+    margin-top: -3em;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .top-main .dieuhuong {
+    left: 2em;
+    margin-top: 3em;
+  }
+  main .top-main .dieuhuong a {
+    color: black;
+    font-size: 13px;
+  }
+  main .top-main .dieuhuong span {
+    font-size: 10px;
+    color: black;
+  }
+  main .comment-fb .comment-top span.label {
+    font-size: 12px;
+  }
+  main .comment-fb .center-comment h4 {
+    font-size: 12px;
+    margin-left: 1em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .logo {
+    width: 40%;
+    height: auto;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .comment-fb .comment-top .center-comment h4.sx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header .logo {
+    width: 50%;
+    height: auto;
+  }
+  header .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=cart.css.map */
